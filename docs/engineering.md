@@ -25,6 +25,14 @@ The dominant design constraints:
 Constraints source: see the requirements appendix (Pi 3/4/5, Zero 2 W, Debian
 Trixie, ALSA audio, libhamlib, piper, gcc/make).
 
+NOTE: this document is provisional. The container for exact topology decisions is
+**Phase 1 of the master plan — brand reverse engineering** (Icom is already done,
+Yaesu/Kenwood/Elecraft remain) joined into `brand_diffs.md`. Until that work
+estimates the variability surface (modes present/absent, key deltas, protocol
+differences), the shapes in Section 4 (profile schema draft) are *hypotheses*,
+not locked-in. Treat this document as advisory guidance ('best practices' +
+rationale), not ground truth. Updated 2026-10-14.
+
 ## 2. Runtime topology
 
 Three units, star topology:
