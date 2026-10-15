@@ -11,8 +11,7 @@ Debian Trixie on Raspberry Pi 3/4/5 (and Zero 2 W).
   control-flow specifications live in the separate *private* workspace and are NOT
   checked in here.
 
-IO architecture notes: see `engine_architecture.md` (to be created — draft from
-`docs/engine_architecture.md` of the master plan).
+Engineering documents: `docs/engineering.md`, `docs/profile_schema.md`, `docs/verification.md`.
 
 Step-by-step roadmap: `ROADMAP.md`.
 
