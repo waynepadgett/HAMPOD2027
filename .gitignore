@@ -1,0 +1,40 @@
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.so
+*.a
+*~
+core
+
+# Firmware images and manuals — never commit these (keep in the private RE workspace)
+*.hex
+*.hex.gz
+*.zip
+downloads/
+firmware_image/
+
+# Generated speech vocab / PCM caches
+vocab/
+*.pcm
+
+# Secrets / local config (runtime-generated values)
+Software2/config/hampod.conf
+Software2/config/*.conf.encrypted
+secrets.txt
+.env
+
+# Logs and scratch
+*.log
+/tmp/
+scratchpad/
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docs with RE detail may not be checked in here by policy
+# (only REDACTED engineering notes)
+notes/reverse_engineering/
